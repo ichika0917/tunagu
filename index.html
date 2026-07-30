@@ -1,61 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>繋ぐ Special Page</title>
+    <title>繋ぐ | Special Page</title>
 
-<style>
-
-body{
-    margin:0;
-    font-family:sans-serif;
-    color:white;
-    text-align:center;
-
-    background-image:url("images/sunset.jpg");
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-
-    min-height:100vh;
-}
-
-.overlay{
-    background:rgba(0,0,0,0.55);
-    min-height:100vh;
-    padding:80px 20px;
-}
-
-h1{
-    font-size:3rem;
-    margin-bottom:10px;
-}
-
-p{
-    line-height:1.8;
-    max-width:700px;
-    margin:auto;
-}
-
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="overlay">
+    <div class="overlay">
 
-<h1>繋ぐ</h1>
+        <div class="hero">
 
-<p>
+            <h1>繋ぐ</h1>
 
-CD風キーホルダーをご購入いただき、
-ありがとうございます。
+            <p class="subtitle">
+                CD風キーホルダーをご購入いただき、
+                ありがとうございます。
+            </p>
 
-</p>
+            <p class="message">
+                このページは、ご購入いただいた方だけが
+                ご覧いただける特別なページです。
+            </p>
 
-</div>
+            <button id="enterButton">
+                Enter
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
