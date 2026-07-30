@@ -1,1 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+    font-family: "Hiragino Sans","Yu Gothic",sans-serif;
+
+    background-image:url("画像/sunset.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    min-height:100vh;
+}
+
+.overlay{
+    min-height:100vh;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:30px;
+}
+
+.hero{
+
+    text-align:center;
+
+    color:white;
+
+    max-width:700px;
+
+    animation:fadeIn 1.5s;
+}
+
+h1{
+
+    font-size:64px;
+
+    letter-spacing:.25em;
+
+    margin-bottom:40px;
+
+}
+
+.subtitle{
+
+    font-size:22px;
+
+    line-height:2;
+
+    margin-bottom:25px;
+
+}
+
+.message{
+
+    line-height:2;
+
+    opacity:.9;
+
+    margin-bottom:50px;
+
+}
+
+button{
+
+    background:white;
+
+    color:#333;
+
+    border:none;
+
+    padding:15px 50px;
+
+    font-size:18px;
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
