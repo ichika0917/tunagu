@@ -1,7 +1,28 @@
-const button = document.getElementById("enterButton");
+const enterButton = document.getElementById("enterButton");
+const passwordBox = document.getElementById("passwordBox");
 
-button.addEventListener("click", ()=>{
+enterButton.addEventListener("click",()=>{
 
-    alert("次回ここからパスワード画面へ進みます🌇");
+    enterButton.style.display="none";
+
+    passwordBox.style.display="block";
+
+});
+
+const loginButton=document.getElementById("loginButton");
+
+loginButton.addEventListener("click",()=>{
+
+    const password=document.getElementById("passwordInput").value;
+
+    if(password==="TSUNAGU917"){
+
+        alert("成功！次回から歌詞ページへ進みます🌇");
+
+    }else{
+
+        document.getElementById("errorMessage").textContent="パスワードが違います。";
+
+    }
 
 });
