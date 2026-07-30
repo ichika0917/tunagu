@@ -1,252 +1,58 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+<!DOCTYPE html>
+<html lang="ja">
 
-body{
-    font-family: "Hiragino Sans","Yu Gothic",sans-serif;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>制作秘話</title>
 
-    background-image:url("images/sunset.jpg");
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    min-height:100vh;
-}
+<body>
 
-.overlay{
-    min-height:100vh;
+    <div class="overlay">
 
-    background:rgba(0,0,0,.55);
+        <main class="book">
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+            <p class="catalog">
+                ICH-001
+            </p>
 
-    padding:30px;
-}
+            <h1>Story</h1>
 
-.hero{
+            <p class="subtitle">
+                Behind the Song
+            </p>
 
-    text-align:center;
+            <hr>
 
-    color:white;
+            <section class="story">
 
-    max-width:700px;
+                <p>
 
-    animation:fadeIn 1.5s;
-}
+ここに『繋ぐ』の制作秘話を書きます。
 
-h1{
+どんな想いで作ったのか、
+どんな景色を思い浮かべていたのか。
 
-    font-size:64px;
+購入してくださった方だけに読んでもらえる、
+小さなお手紙のようなページです。
 
-    letter-spacing:.25em;
+                </p>
 
-    margin-bottom:40px;
+            </section>
 
-}
+            <hr>
 
-.subtitle{
+            <a class="next" href="thanks.html">
+                Thank You →
+            </a>
 
-    font-size:22px;
+        </main>
 
-    line-height:2;
+    </div>
 
-    margin-bottom:25px;
+</body>
 
-}
-
-.message{
-
-    line-height:2;
-
-    opacity:.9;
-
-    margin-bottom:50px;
-
-}
-
-button{
-
-    background:white;
-
-    color:#333;
-
-    border:none;
-
-    padding:15px 50px;
-
-    font-size:18px;
-
-    border-radius:999px;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-button:hover{
-
-    transform:translateY(-4px);
-
-}
-
-@keyframes fadeIn{
-
-from{
-
-opacity:0;
-
-transform:translateY(20px);
-
-}
-
-to{
-
-opacity:1;
-
-transform:translateY(0);
-    .hidden{
-
-    display:none;
-
-}
-
-#passwordBox{
-
-    margin-top:50px;
-
-}
-
-input{
-
-    padding:15px;
-
-    width:260px;
-
-    border:none;
-
-    border-radius:12px;
-
-    text-align:center;
-
-    font-size:18px;
-
-}
-
-#errorMessage{
-
-    margin-top:20px;
-
-    color:#ffb5b5;
-
-}
-
-}
-
-}
-.book{
-
-max-width:700px;
-
-margin:auto;
-
-background:rgba(255,255,255,.08);
-
-backdrop-filter:blur(12px);
-
-padding:60px 40px;
-
-border-radius:24px;
-
-text-align:left;
-
-}
-
-.catalog{
-
-letter-spacing:.4em;
-
-font-size:14px;
-
-opacity:.7;
-
-margin-bottom:20px;
-
-}
-
-.book h1{
-
-font-size:48px;
-
-letter-spacing:.2em;
-
-margin-bottom:10px;
-
-text-align:center;
-
-}
-
-.book .subtitle{
-
-text-align:center;
-
-margin-bottom:40px;
-
-opacity:.8;
-
-}
-
-.book hr{
-
-border:none;
-
-border-top:1px solid rgba(255,255,255,.2);
-
-margin:40px 0;
-
-}
-
-.lyrics{
-
-line-height:2.8;
-
-font-size:18px;
-
-white-space:pre-wrap;
-
-}
-
-.next{
-
-display:block;
-
-text-align:right;
-
-text-decoration:none;
-
-color:white;
-
-margin-top:30px;
-
-opacity:.8;
-
-}
-
-.next:hover{
-
-opacity:1;
-
-}
-.story{
-
-line-height:2.3;
-
-font-size:18px;
-
-white-space:pre-wrap;
-
-}
+</html>
