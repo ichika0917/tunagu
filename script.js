@@ -15,7 +15,7 @@ loginButton.addEventListener("click",()=>{
 
     const password=document.getElementById("passwordInput").value;
 
-    if(password==="TSUNAGU917"){
+    if(password==="tunagu0917"){
 
         location.href = "lyrics.html";
 
