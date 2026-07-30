@@ -17,7 +17,7 @@ loginButton.addEventListener("click",()=>{
 
     if(password==="TSUNAGU917"){
 
-        alert("成功！次回から歌詞ページへ進みます🌇");
+        location.href = "lyrics.html";
 
     }else{
 
