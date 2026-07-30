@@ -109,6 +109,41 @@ to{
 opacity:1;
 
 transform:translateY(0);
+    .hidden{
+
+    display:none;
+
+}
+
+#passwordBox{
+
+    margin-top:50px;
+
+}
+
+input{
+
+    padding:15px;
+
+    width:260px;
+
+    border:none;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+#errorMessage{
+
+    margin-top:20px;
+
+    color:#ffb5b5;
+
+}
 
 }
 
