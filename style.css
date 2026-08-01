@@ -153,3 +153,16 @@ button{
 
     opacity:1;
 }
+
+.back{
+    display:inline-block;
+    margin-top:20px;
+    color:white;
+    text-decoration:none;
+    opacity:0.8;
+    transition:0.3s;
+}
+
+.back:hover{
+    opacity:1;
+}
