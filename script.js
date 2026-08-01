@@ -1,28 +1,15 @@
-const enterButton = document.getElementById("enterButton");
-const passwordBox = document.getElementById("passwordBox");
+function checkPassword() {
 
-enterButton.addEventListener("click",()=>{
+    const password = document.getElementById("password").value;
 
-    enterButton.style.display="none";
+    if (password === "tunagu0917") {
 
-    passwordBox.style.display="block";
+        window.location.href = "lyrics.html";
 
-});
+    } else {
 
-const loginButton=document.getElementById("loginButton");
-
-loginButton.addEventListener("click",()=>{
-
-    const password=document.getElementById("passwordInput").value;
-
-    if(password==="tunagu0917"){
-
-        location.href = "lyrics.html";
-
-    }else{
-
-        document.getElementById("errorMessage").textContent="パスワードが違います。";
+        alert("合言葉が違います。");
 
     }
 
-});
+}
