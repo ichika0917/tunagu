@@ -1,66 +1,42 @@
-<!DOCTYPE html>
-<html lang="ja">
+<div class="overlay">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="hero">
 
-    <title>繋ぐ | Special Page</title>
+        <h1>繋ぐ</h1>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <p class="subtitle">
+            CD風キーホルダーをご購入いただき、ありがとうございます。
+        </p>
 
-<body>
+        <p class="message">
+            このページは、ご購入いただいた方だけが<br>
+            ご覧いただける特別なページです。
+        </p>
 
-    <div class="overlay">
+        <div class="password-box">
 
-        <div class="hero">
+            <h2>🔒 合言葉</h2>
 
-            <h1>繋ぐ</h1>
-
-            <p class="subtitle">
-                CD風キーホルダーをご購入いただき、
-                ありがとうございます。
+            <p>
+                このページは購入者限定です。<br>
+                合言葉を入力してください。
             </p>
 
-            <p class="message">
-                このページは、ご購入いただいた方だけが
-                ご覧いただける特別なページです。
-            </p>
+            <input
+                type="password"
+                id="password"
+                placeholder="パスワード">
 
-            <button id="enterButton">
-                Enter
+            <br><br>
+
+            <button onclick="checkPassword()">
+                📖 読み始める
             </button>
-            <div id="passwordBox" class="hidden">
-
-    <h2>🔒 Password</h2>
-
-    <p>
-        このページは購入者限定です。<br>
-        パスワードを入力してください。
-    </p>
-
-    <input
-        type="password"
-        id="passwordInput"
-        placeholder="パスワード">
-
-    <br><br>
-
-    <button id="loginButton">
-        入室する
-    </button>
-
-    <p id="errorMessage"></p>
-
-</div>
 
         </div>
 
     </div>
 
-    <script src="script.js"></script>
+</div>
 
-</body>
-
-</html>
+<script src="script.js"></script>
