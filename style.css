@@ -198,3 +198,18 @@ button{
     }
 
 }
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.page-nav a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    color: #ffffff;
+}
